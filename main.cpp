@@ -4,7 +4,7 @@
 
 using namespace std;
 // exercise: write code to swap the value of 2 variables.
-int mai() {
+int main1() {
     const double pi = 3.14;
 
     // naming conventions
@@ -69,13 +69,12 @@ int mai() {
 //    cout << result;
 
     //write a program to calculate the area of a circle
- //   cout << "Enter your radius: ";
+ //   cout << " Enter your radius: ";
     double radius;
   //  cin >> radius;
 
     double circleArea = pi * radius * radius;
  //   cout << circleArea;
-
 
     // writing to the console
 

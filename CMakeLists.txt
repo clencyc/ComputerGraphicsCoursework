@@ -10,5 +10,7 @@ add_executable(CppProgramming
         EndBrace.h
         Log.cpp
         Log.h
+        source/function.cpp
+        source/function.h
 
 )

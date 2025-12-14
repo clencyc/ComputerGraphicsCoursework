@@ -9,7 +9,7 @@ int Multiply(int a, int b)
     return a * b;
 }
 
-int main()
+int main2()
 {
     std::cout <<Multiply(2, 5) << std::endl;
     std::cin.get();
