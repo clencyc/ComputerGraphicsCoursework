@@ -12,5 +12,8 @@ add_executable(CppProgramming
         Log.h
         source/function.cpp
         source/function.h
+        source/Headerfiles.cpp
+        source/LogHeader.cpp
+        source/LogHeader.h
 
 )

@@ -16,7 +16,7 @@ void MultiplyAndLog(int a, int b) {
 
 }
 
-int main()
+int main3()
 {
     MultiplyAndLog(2, 4);
     MultiplyAndLog(5, 6);
