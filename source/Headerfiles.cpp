@@ -7,6 +7,12 @@ void Log1(const char* message) {
 
 int main()
 {
-    std::cout << "Hello world" << std::endl;
+    const char* ptr = "Hello";
+
+    if (ptr)
+        Log1(ptr);
+    else if (ptr == "Hello")
+        Log1("Ptr is Hello!");
+
     std::cin.get();
 }
