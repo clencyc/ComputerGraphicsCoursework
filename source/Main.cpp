@@ -27,7 +27,7 @@ void Function() {
 int Entity::x;
 int Entity::y;
 
-int main() {
+int main_statics() {
     Entity e{};
     e.x = 2;
     e.y = 3;

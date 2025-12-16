@@ -18,5 +18,7 @@ add_executable(CppProgramming
         source/Common.h
         source/Static.cpp
         source/Main.cpp
+        source/Enums.cpp
+        source/ClassesCpp.cpp
 
 )
