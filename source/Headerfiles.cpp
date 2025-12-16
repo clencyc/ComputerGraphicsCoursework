@@ -5,7 +5,7 @@ void Log1(const char* message) {
     std::cout << message;
 }
 
-int main()
+int main_header()
 {
     const char* ptr = "Hello";
 

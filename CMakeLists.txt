@@ -16,5 +16,7 @@ add_executable(CppProgramming
         source/LogHeader.cpp
         source/LogHeader.h
         source/Common.h
+        source/Static.cpp
+        source/Main.cpp
 
 )
