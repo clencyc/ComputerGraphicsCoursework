@@ -20,7 +20,7 @@ static void Print(Entity e) {
     std::cout << e.x<< "," << e.y << "Hello Struct" <<std::endl;
 }
 
-void Function() {
+static void Function() {
 
 }
 

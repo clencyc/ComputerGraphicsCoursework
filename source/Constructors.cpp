@@ -12,10 +12,21 @@ class Entity {
 public:
     float X, Y;
 
+    Entity() {
+        X = 0.0f;
+        Y = 0.0f;
+        std::cout << "Created Entity!" << std::endl;
+    }
+
     // A constructor
-    Entity(const float w, const float z) {
-        X = w;
-        Y = z;
+    // Entity(const float w, const float z) {
+    //     X = w;
+    //     Y = z;
+    // }
+
+    // Destructor
+    ~Entity() {
+        std::cout << "Destroyed Entity!" << std::endl;
     }
 
     // inititalizing a class
@@ -38,12 +49,17 @@ public:
 
     }
 };
-int main() {
-    Log::Write();
-    Log 1;
 
-    Entity e(10.99f, 443.33f);
+// code for all entity operations
+void Function() {
+    Entity e;
     e.Printc();
+}
 
+int main() {
+    // Entity e(10.99f, 443.33f);
+    // e.Printc();
+
+    Function();
     std::cin.get();
 }
