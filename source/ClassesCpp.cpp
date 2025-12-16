@@ -37,7 +37,7 @@ public:
     }
 };
 
-int main() {
+int main_classes() {
 
     Log log;
     log.SetLevel(Log::LevelError);
