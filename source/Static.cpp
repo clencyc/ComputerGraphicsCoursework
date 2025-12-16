@@ -10,6 +10,7 @@ static int s_variable  = 5;
 
 int s1_variable = 5;
 
+// static functions are used only inside the function
 static void Function() {
 
 }
