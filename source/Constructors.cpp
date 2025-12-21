@@ -56,7 +56,7 @@ void Function() {
     e.Printc();
 }
 
-int main() {
+int mainContructors() {
     // Entity e(10.99f, 443.33f);
     // e.Printc();
 

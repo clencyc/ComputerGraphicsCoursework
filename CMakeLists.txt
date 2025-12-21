@@ -21,5 +21,6 @@ add_executable(CppProgramming
         source/Enums.cpp
         source/ClassesCpp.cpp
         source/Constructors.cpp
+        source/Inheritanceclass.cpp
 
 )
